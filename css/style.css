@@ -1,0 +1,718 @@
+@font-face{
+    font-family:'OpenSansSemiBold';
+    src:url(../fonts/OpenSansSemiBold.ttf);
+}
+@font-face{
+    font-family:'MontserratRegular';
+    src:url(../fonts/MontserratRegular.ttf);
+}
+@font-face{
+    font-family:'MontserratSemiBold';
+    src:url(../fonts/MontserratSemiBold.ttf);
+}
+@font-face{
+    font-family:'MontserratLight';
+    src:url(../fonts/MontserratLight.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.noleft{
+    padding-left: 0;
+}
+
+.noright{
+    padding-right: 0;
+}
+
+.nopadding{
+    padding: 0;
+}
+
+a{
+    outline: medium none !important;
+    text-decoration:none;
+    transition: all 0.35s ease 0s;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+button {
+    transition: all 0.35s ease 0s;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+button:focus{
+    outline:0px;
+}
+.boxs{
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top:0;
+    left:0;
+    background-color: #000;
+    padding: 50px 0px; 
+}
+
+.header .container-fluid{
+    padding:0;
+}
+.header .navbar-brand{
+    height: auto;
+    padding: 0;
+    padding-left: 15px;
+    font-family: "OpenSansSemiBold";
+    font-size: 18px;
+    color: #fff;
+}
+.header .navbar-brand span{
+    display: block;
+    font-family: "MontserratLight";
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+}
+.header .navbar{
+    background: rgba(0,0,0,0);
+    border: none;
+    margin-bottom: 0;
+    padding: 0px 25px;
+}
+
+.header .navbar ul li{
+    padding: 10px 20px;
+}
+.header .navbar ul li:last-child,.header .navbar ul  a:last-child{
+    padding-right: 0px;
+}
+.header .navbar-nav > li > a{
+    font-family: "MontserratRegular";
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.header .navbar-nav > li > a:focus{
+    background: transparent;
+}
+.header .nav > li > a:hover, .header .nav > li .active{
+    color: #959595;
+    background-color: transparent;
+}
+.header .navbar-nav > li .btn{
+    background:#000;
+    color:#fff !important;
+    border-radius:100px;
+}	
+.header .navbar-nav > li .btn:hover{
+    background:#da3838;
+}
+
+.fixed_header{
+    position:fixed;
+}
+.fixed_header .top{
+    display:none;
+    border:none;
+}
+.fixed_header .bottom{
+    padding:10px 0;
+}
+.header .hamburger{
+    width: 52px;
+    height: 52px;
+    padding: 13px 13px;
+    display: none;
+    float: right;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+    background: #9097a8;
+    border-radius: 0;
+    width: 25px;
+    height: 3px;
+}
+.hamburger-box{
+    width: 25px;
+}
+.hamburger-inner::before {
+    top: -8px;
+}
+.hamburger-inner::after {
+    bottom: -8px;
+}
+.banner{
+    width: 100%;
+    background-color: #000; 
+    padding-top: 175px;
+}
+.banner_detail{
+    height: 600px;
+}
+.banner_inner{
+    padding: 0px 25px;
+    position: relative;
+}
+.fbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details_res .banner_heading h1{
+    margin-bottom: 0px;
+}
+.banner_heading h1{
+    font-family: "MontserratRegular";
+    font-size: 26px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner_heading h1 span{
+    display: block;
+}
+.banner_heading a{
+    display: inline-block;
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    color: #96999f;
+}
+.banner_heading a:hover{
+    color: #fff;
+}
+.banner_bottom a{
+    display: inline-block;
+    font-family: "MontserratRegular";
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.banner_bottom a:hover{
+    color: #959595;
+}
+.banner_bottom a img{
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.banner_bottom a .img_hide{
+    display: none;
+}
+.banner_bottom a:hover .img_show{
+    display: block;
+}
+
+.feature{
+    width: 100%;
+    background-color: #fff;
+    padding: 80px 0px;
+}
+.feature_inner{
+    padding: 0px 25px;
+}
+
+.feature_heading h2{
+    font-family: "MontserratRegular";
+    font-size: 36px;
+    color: #000;
+}
+.img{
+    width: 635px;
+    height: 450px;
+    margin-top: 120px;
+    border-radius: 4px;
+    background-color: #efefef;
+}
+.img2{
+    width: 635px;
+    height: 500px;
+}
+.img3{
+    width: 540px;
+    height: 400px;
+}
+.img4{
+    width: 635px;
+    height: 600px;
+}
+.f_list_2,.f_list_4{
+    float: right;
+    display: block;
+    width: max-content;
+
+}
+.img_title h3{
+    font-family: "MontserratSemiBold";
+    font-size: 22px;
+    color: #000;
+    margin: 20px 0px 15px;
+}
+.img_title a{
+    font-family: "MontserratRegular";
+    font-size: 12px;
+    color: #000;
+    display: inline-block;
+}
+.img_title a i{
+    margin-left: 5px;
+}
+.img_title a:hover{
+    color: #90b012;
+}
+
+.footer{
+    width: 100%;
+    padding: 115px 0px 75px;
+    background-color: #000;
+}
+.footer_inner{
+    padding: 0px 25px;
+}
+.f_heading h3{
+    font-family: "MontserratLight";
+    font-size: 14px;
+    color: #a9a9a9;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.f_heading h3 span{
+    display: block;
+}
+.contact h3{
+    font-family: "MontserratLight";
+    font-size: 28px;
+    color: #fff;
+    text-align: center; 
+    margin-bottom: 20px  
+}
+.contact a{
+    display: inline-block;
+    font-family: "MontserratSemiBold";
+    font-size: 38px;
+    color: #fff;
+    text-align: center; 
+    margin-bottom: 20px 
+}
+.contact a:hover{
+    color: #959595;
+}
+.contact p{
+    font-family: "MontserratLight";
+    font-size: 14px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center; 
+    margin-bottom: 100px  
+}
+.contact p span{
+    display: block;
+}
+.f_social p{
+    font-family: "MontserratLight";
+    font-size: 12px;
+    color: #a9a9a9;
+    width: max-content;
+    display: inline-block;
+    margin-right: 35px;
+}
+.f_social a{
+    display: inline-block;
+    font-family: "MontserratLight";
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 0px 20px;
+}
+.f_social a:hover{
+    color: #959595;
+}
+.f_social a.top{
+    font-family: "MontserratRegular";
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.f_social a.top .img_hide{
+    display: none;
+}
+.f_social a.top:hover .img_show{
+    display: block;
+}
+
+.f_social a.top:hover{
+    color:  #959595;
+}
+.f_social a.top img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.pos_f{
+    position: relative;
+}
+
+
+/*deepak page start*/
+.banner_heading p{
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+    font-family:'MontserratLight';
+    padding-top: 30px;
+}
+.icon_class a{
+    margin-left: 20px;  
+}
+.banner_heading .icon_class{
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+.banner_heading{
+    padding-top: 0px;
+
+}
+.banner_heading .first_class{
+    margin-left: 0px;
+
+}
+.experience{
+    padding: 100px 0px;
+}
+.double_box h2{
+    font-family:'MontserratSemiBold';
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+}
+.home_img{
+    padding-left: 35px;
+}
+.exper_left h3{
+    font-size: 22px;
+    line-height: 26px;
+    color:#000;
+    font-family:'MontserratLight';
+}
+.exper_left p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#000;
+    font-family:'MontserratLight';
+}
+.exper_right p{
+    color: #888d98;
+    font-size: 16px;
+    font-family:'MontserratLight';
+}
+/*.exper_right{
+    text-align: right;
+}*/
+.exper_right,.exper_left{
+    padding-top: 30px;
+}
+.ex_top{
+    padding-top: 20px;
+}
+.double_box{
+    width: 740px;
+    margin: 0 auto;
+}
+.education{
+    padding-bottom: 100px;
+}
+.education .exper_left p span{
+    color: #888d98;
+} 
+/*project*/
+.pro_heading h1{
+    margin-bottom: 0px;
+}
+.pro_heading h4{
+    font-size: 18px;
+    line-height: 44px;
+    color: #fff;
+    opacity: 0.6;
+    font-family:'MontserratRegular';
+}
+.pro_heading{
+    padding-top: 0px;
+}
+.project_banner{
+    padding-bottom: 120px;
+    padding-top: 180px;
+    position: relative;
+}
+.project_bottom{
+    padding-left: 25px;
+}
+.det_ux h5,.det_ux p{
+    font-size: 16px;
+    color: #fff; 
+    line-height: 28px;
+    font-family:'MontserratRegular';
+}
+.det_ux p{
+    font-size: 14px;
+    font-family:'MontserratSemiBold';
+}
+.det_ux{
+    padding: 50px 0px 0px 0px
+}
+/*---------features project css start-----*/
+
+.feature .projects_wraper {
+    padding-top: 25px;
+}
+
+.feature .projects_wraper .project {
+    width: 100%;
+    background-color: #efefef;
+    padding: 150px 0;
+    margin-top: 15px;
+
+}
+
+.feature .projects_wraper h2 {
+    font-size: 22px;
+    font-family:'MontserratSemiBold';
+    padding-top: 20px;
+}
+
+
+/*---------features project css end-----*/
+
+/*---------overview project css start-----*/
+
+.overview .overview_txt1 h2 {
+    color: #111111;
+    font-size: 28px;
+    font-family: 'MontserratRegular';
+    line-height: 1.57;
+    text-align: center;
+}
+
+.overview .overview_txt1 p {
+    font-size: 16px;
+    font-family:'MontserratLight';
+    line-height: 2.25;
+    color: #111111;
+    padding-top: 40px;
+
+}
+
+.overview .overview_txt1 p span {
+    color: #f53169;
+}
+
+.overview .overview_txt2 {
+    padding-top: 30px;
+}
+
+.overview .overview_txt2 h2 {
+    padding-top: 50px;
+}
+
+.overview .overview_paras {
+    padding-top: 50px;
+}
+
+.overview .overview_paras p {
+    font-size: 16px;
+    font-family:'MontserratLight';
+    line-height: 2.25;
+    color: #000;
+}
+
+.overview .overview_paras #para {
+    padding-top: 74px;
+}
+
+.overview .sketch_wraper {
+    padding-top: 50px;
+}
+
+.overview .slider {
+
+}
+.slick-slide slick-current slick-active{
+    box-shadow: 0px 0px 20px;
+}
+.overview .slider img {
+    margin:2px;
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 99;
+}
+
+.slick-prev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    font-size: 50px;
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 99;
+}
+
+.slick-next:before {
+    content: '\f105';
+    font-family: FontAwesome;
+    font-size: 50px;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+}
+
+.overview .next_project {
+    padding: 60px 0px;
+    width: 470px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    float: initial;
+}
+.overview {
+    padding-top: 60px;
+}
+.overview .next_project h2 {
+    font-family: 'MontserratSemiBold';
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -22px;
+}
+
+.overview .next_project a {
+    padding-left: 50px;
+    font-family: 'MontserratRegular';
+    font-size: 22px;
+    color: #000000;
+}
+
+.overview .next_project a span {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    font-family: 'MontserratLight';
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 70%;
+    min-height: 1px;
+}
+.slick_background{
+    background: #e6e6e6;
+    padding: 50px 0px;
+    margin-top: 30px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: #e6e6e6;
+    border-radius: 30px;
+}
+.slick-dots {
+    bottom: -50px;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    background: transparent;
+    height: 10px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    /* color: black; */
+    color: transparent !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #fff;
+    border-radius: 30px;
+}
+.overview .slider img {
+    margin: 0px;
+}
+
+.slick-current {
+    background:#202021;
+
+}
+.slick-slide{
+    margin: 10px;
+
+}
+.slick_background .s_img img{
+    height: 100%;
+    opacity: 0.5;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+.slick-initialized .slick-slide {
+    outline: 0;
+}
+
+
+.icon_class a svg:hover path{
+    fill: #959595;
+}
+/*---------overview project css end-----*/
