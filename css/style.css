@@ -15,6 +15,9 @@
     src:url(../fonts/MontserratLight.ttf);
 }
 
+ont-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
 *{
     margin: 0;
     padding: 0;
@@ -77,7 +80,7 @@ button:focus{
     top:0;
     left:0;
     background-color: #000;
-    padding: 50px 0px; 
+    padding: 50px 0px;
 }
 
 .header .container-fluid{
@@ -129,7 +132,7 @@ button:focus{
     background:#000;
     color:#fff !important;
     border-radius:100px;
-}	
+}
 .header .navbar-nav > li .btn:hover{
     background:#da3838;
 }
@@ -168,7 +171,7 @@ button:focus{
 }
 .banner{
     width: 100%;
-    background-color: #000; 
+    background-color: #000;
     padding-top: 175px;
 }
 .banner_detail{
@@ -276,8 +279,8 @@ button:focus{
     margin: 20px 0px 15px;
 }
 .img_title a{
-    font-family: "MontserratRegular";
-    font-size: 12px;
+    font-family: "OpenSansSemiBold";
+    font-size: 14px;
     color: #000;
     display: inline-block;
 }
@@ -285,7 +288,7 @@ button:focus{
     margin-left: 5px;
 }
 .img_title a:hover{
-    color: #90b012;
+    color: #959595;
 }
 
 .footer{
@@ -310,16 +313,16 @@ button:focus{
     font-family: "MontserratLight";
     font-size: 28px;
     color: #fff;
-    text-align: center; 
-    margin-bottom: 20px  
+    text-align: center;
+    margin-bottom: 20px
 }
 .contact a{
     display: inline-block;
     font-family: "MontserratSemiBold";
     font-size: 38px;
     color: #fff;
-    text-align: center; 
-    margin-bottom: 20px 
+    text-align: center;
+    margin-bottom: 20px
 }
 .contact a:hover{
     color: #959595;
@@ -329,8 +332,8 @@ button:focus{
     font-size: 14px;
     line-height: 27px;
     color: #fff;
-    text-align: center; 
-    margin-bottom: 100px  
+    text-align: center;
+    margin-bottom: 100px
 }
 .contact p span{
     display: block;
@@ -393,7 +396,7 @@ button:focus{
     padding-top: 30px;
 }
 .icon_class a{
-    margin-left: 20px;  
+    margin-left: 20px;
 }
 .banner_heading .icon_class{
     margin-top: 55px;
@@ -454,7 +457,7 @@ button:focus{
 }
 .education .exper_left p span{
     color: #888d98;
-} 
+}
 /*project*/
 .pro_heading h1{
     margin-bottom: 0px;
@@ -479,7 +482,7 @@ button:focus{
 }
 .det_ux h5,.det_ux p{
     font-size: 16px;
-    color: #fff; 
+    color: #fff;
     line-height: 28px;
     font-family:'MontserratRegular';
 }
