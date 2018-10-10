@@ -3,9 +3,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-               <link rel="icon" href="img/favicon/fa_icon.png" type="image/ico" sizes="16x16">
+               <link rel="icon" href="img/favicon/favicon.ico" type="image/ico" sizes="16x16">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Karim | Home</title>
+
         <!-- Bootstrap -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -20,6 +21,34 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <!-- Start of Async Drift Code -->
+          <script>
+          "use strict";
+
+          !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+              if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+              t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+              t.factory = function(e) {
+                return function() {
+                  var n = Array.prototype.slice.call(arguments);
+                  return n.unshift(e), t.push(n), t;
+                };
+              }, t.methods.forEach(function(e) {
+                t[e] = t.factory(e);
+              }), t.load = function(t) {
+                var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                var i = document.getElementsByTagName("script")[0];
+                i.parentNode.insertBefore(o, i);
+              };
+            }
+          }();
+          drift.SNIPPET_VERSION = '0.3.1';
+          drift.load('2dkh48anvr4z');
+          </script>
+        <!-- End of Async Drift Code -->
     </head>
     <body>
         <!-- Header Start -->
@@ -84,10 +113,10 @@
                     <div class="col-sm-12 nopadding">
                         <div class="f_list boxs">
                             <div class="img img1 boxs">
-                                <img src="img/img1.svg" alt="img1" class="img-responsive">
+                                <img src="img/schneider.png" alt="img1" class="img-responsive">
                             </div>
                             <div class="img_title boxs">
-                                <h3>This is a title for Project 1</h3>
+                                <h3>myschneider App ( iOS,Android )</h3>
                                 <a href="javascript:void(0)">Case Study <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
