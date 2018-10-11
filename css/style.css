@@ -90,7 +90,7 @@ button:focus{
     height: auto;
     padding: 0;
     padding-left: 15px;
-    font-family: "OpenSansSemiBold";
+    font-family: "Roboto";
     font-size: 18px;
     color: #fff;
 }
@@ -279,7 +279,7 @@ button:focus{
     margin: 20px 0px 15px;
 }
 .img_title a{
-    font-family: "OpenSansSemiBold";
+    font-family: "Roboto";
     font-size: 14px;
     color: #000;
     display: inline-block;
@@ -432,12 +432,12 @@ button:focus{
     font-size: 16px;
     line-height: 26px;
     color:#000;
-    font-family:'MontserratLight';
+    font-family:'MontserratRegular';
 }
 .exper_right p{
     color: #888d98;
-    font-size: 16px;
-    font-family:'MontserratLight';
+    font-size: 15px;
+    font-family:'MontserratRegular';
 }
 /*.exper_right{
     text-align: right;
