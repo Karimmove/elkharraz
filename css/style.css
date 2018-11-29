@@ -68,7 +68,7 @@ button:focus{
     outline:0px;
 }
 .boxs{
-    width: 98%;
+    width: 100%;
     display: block;
     float: left;
 }
