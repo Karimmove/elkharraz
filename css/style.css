@@ -68,7 +68,7 @@ button:focus{
     outline:0px;
 }
 .boxs{
-    width: 100%;
+    width: 98%;
     display: block;
     float: left;
 }
@@ -420,7 +420,7 @@ button:focus{
     color: #000;
 }
 .home_img{
-    padding-left: 35px;
+    padding-left: 88px;
 }
 .exper_left h3{
     font-size: 22px;
