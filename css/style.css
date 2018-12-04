@@ -496,18 +496,18 @@ button:focus{
 /*---------features project css start-----*/
 
 .feature .projects_wraper {
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .feature .projects_wraper .project {
     width: 100%;
-    
+
     padding: 0px 0;
     margin-top: 15px;
 
 }
 
-.feature .projects_wraper h2 {
+/*----.feature .projects_wraper h2 {
     font-size: 22px;
     font-family:'MontserratSemiBold';
     padding-top: 20px;
@@ -515,7 +515,68 @@ button:focus{
 
 
 /*---------features project css end-----*/
+/*---------test -----*/
 
+.card-columns .card {
+  margin-bottom: 0.75rem;
+}
+.card h3  {
+    font-size: 18px;
+    padding-top: 4rem;
+    text-align: left;
+    font-family: montserrat;
+    font-weight: 500;
+}
+.feature .projects_wraper h2 {
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 10px;
+    text-align: left;
+    color: #ccc;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 6rem;
+    -moz-column-gap: 6rem;
+    column-gap: 6rem;
+    orphans: 1;
+    widows: 1;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-3px,0,0);
+    transform: translate3d(-3px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .hovereffect:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=20);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+
+}
+
+/*---------test -----*/
 /*---------overview project css start-----*/
 
 .overview .overview_txt1 h2 {
