@@ -496,7 +496,8 @@ button:focus{
 /*---------features project css start-----*/
 
 .feature .projects_wraper {
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .feature .projects_wraper .project {
@@ -521,11 +522,16 @@ button:focus{
   margin-bottom: 0.75rem;
 }
 .card h3  {
-    font-size: 18px;
+    font-size: 24px;
     padding-top: 4rem;
     text-align: left;
     font-family: "MontserratSemiBold";
     font-weight: 500;
+}
+.card h1 {
+  font-family: "MontserratRegular";
+    font-size: 36px;
+    color: #000;
 }
 .feature .projects_wraper h2 {
     font-size: 16px;
