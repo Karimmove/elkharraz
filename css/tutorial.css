@@ -16,17 +16,17 @@
   transition: all 0.2s ease-in;
 }
 .dropdown.open {
-  
+
 }
 
 .dropdown-menu.animated {
   /* Speed up animations */
   -webkit-animation-duration: 0.55s;
   animation-duration: 0.55s;
-  
+
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
-  
+
   /*
    * @see:
    * Animation duration: http://www.w3schools.com/cssref/css3_pr_animation-duration.asp
@@ -41,8 +41,7 @@
    */
   -webkit-animation-duration: 0.45s;
   animation-duration: 0.45s;
-  
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;  
-}
 
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
