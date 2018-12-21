@@ -427,6 +427,7 @@ button:focus{
 .exper_left h3{
     font-size: 22px;
     line-height: 26px;
+    font-weight: 700;
     color:#000;
     font-family:'MontserratLight';
 }
