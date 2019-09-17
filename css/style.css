@@ -184,11 +184,12 @@ button:focus{
     position: relative;
 }
 .fbox{
-  margin-bottom: -210px;
-  margin-top: 120px;
+
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-bottom: -210px;
+  margin-top: 120px;
 }
 .details_res .banner_heading h1{
     margin-bottom: 0px;
